@@ -1,0 +1,46 @@
+/* Apply background color to the entire body */
+body {
+    background-color: #34d8eb;
+  }
+  
+  /* Set the text color for all paragraphs */
+  p {
+    color: #000000;
+  }
+  
+  /* Set text color for heading elements h1, h2, and h3 */
+  h1, h2, h3 {
+    color: #eb3434;
+  }
+  
+  /* Apply background color to the navigation element */
+  nav {
+    background-color: #35df73;
+    padding: 10px; /* Combine padding declarations */
+    margin-bottom: 30px; /* Add margin declaration */
+  }
+  
+  /* Set link color for navigation links */
+  nav a {
+    color: #cc34eb;
+  }
+  
+  /* Change link color on hover */
+  nav a:hover {
+    color: #34b4eb;
+  }
+  .quotefloat {float:right}
+  .flex1, .flex2 {display:flex;}
+  .float {flex:1;}
+  .flex1 {margin-bottom:20px;}
+  .column1 {margin-right: 40px;
+  margin-left: 60px;}
+  .columnB {margin-right: 40px;
+  margin-left: 60px;}
+  .flex1, .flex2 {flex:2; background-color: beige; border-radius: 1em; margin-left: 50px; margin-right: 50px;}
+  .title {margin-left: 60px;}
+  .textarea {margin-top: 30px;}
+  .iframe {margin-top: 20px; margin-bottom: 20px;}
+  
+  
+  
