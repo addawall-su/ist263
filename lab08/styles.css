@@ -32,7 +32,7 @@ body {
   .quotefloat {float:right}
   .flex1, .flex2 {display:flex;}
   .float {flex:1;}
-  .flex1 {margin-top: 10px;}
+ 
   .column1 {margin-right: 40px;
   margin-left: 60px;}
   .columnB {margin-right: 40px;
