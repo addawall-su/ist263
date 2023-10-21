@@ -42,9 +42,8 @@ body {
   .textarea {margin-top: 30px;}
   .iframe {margin-top: 20px; margin-bottom: 20px;}
   .flex2 {margin-top: 30px;}
-  /* Add margin to the LinkedIn link (adjust the margin value as needed) */
 a[href="https://www.linkedin.com/in/alexander-dawallu/"] {
-  margin-bottom: 20px; /* Adjust the margin value as needed */
+  margin-bottom: 20px; padding: 20px
 }
 
 
