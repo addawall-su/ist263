@@ -1,64 +1,114 @@
 
 body {
-    background-color: #34d8eb;
-  }
-  p {
-    color: #000000;
-  }
+  background-color: #34d8eb;
+}
 
-  h1, h2, h3 {
-    color: #eb3434;
-  }
-  
-  /* Apply background color to the navigation element */
-  nav {
-    background-color: #35df73;
-    padding: 10px; /* Combine padding declarations */
-    margin-bottom: 30px; /* Add margin declaration */
-  }
-  
-  /* Set link color for navigation links */
-  nav a {
-    color: #cc34eb;
-  }
-  
-  /* Change link color on hover */
-  nav a:hover {
-    color: #34b4eb;
-  }
-  .quotefloat {float:right}
-  .flex1, .flex2 {display:flex;}
-  .float {flex:1;}
- 
-  .column1 {margin-right: 40px;
-  margin-left: 60px;}
-  .columnB {margin-right: 40px;
-  margin-left: 60px;}
-  .flex1, .flex2 {flex:2; background-color: beige; border-radius: 1em; margin-left: 50px; margin-right: 50px;}
-  .title {margin-left: 60px;}
-  .textarea {margin-top: 30px;}
-  .iframe {margin-top: 20px; margin-bottom: 20px;}
-  .flex2 {margin-top: 30px;}
-  .linked {margin-top:10px}
-  .center {text-align: center;}
-  .centertable {display:flex;justify-content: center;}
-  h1, .sentences {text-align: center;}
-  .icons {display:flex; flex: 3; padding: 10px;}
-  .otherskills {
-    background-color:#ffffff;
-    border-radius: 1em;
-    flex; 1;
-    padding: 10px;
-  }
-.flexbox2 {display: flex; margin-right: 130px; margin-left: 55px;}
-.icons {justify-content: space-around;}
-.sentences {display: block;}
+p {
+  color: #000000;
+}
 
+h1, h2, h3 {
+  color: #eb3434;
+}
 
+/* Apply background color to the navigation element */
+nav {
+  background-color: #35df73;
+  padding: 10px;
+  margin-bottom: 30px;
+}
 
+/* Set link color for navigation links */
+nav a {
+  color: #cc34eb;
+}
 
+/* Change link color on hover */
+nav a:hover {
+  color: #34b4eb;
+}
 
+/* Add these classes to your styles */
+.quotefloat {
+  float: right;
+}
 
+.flex1,
+.flex2 {
+  display: flex;
+  margin-right: 130px; /* Adjust margin */
+  margin-left: 55px; /* Adjust margin */
+}
 
-  
-  
+.float {
+  flex: 1;
+}
+
+.column1,
+.columnB {
+  margin-right: 40px;
+  margin-left: 60px;
+}
+
+.flex1,
+.flex2 {
+  flex: 3; /* Adjust flex values */
+  background-color: beige;
+  border-radius: 1em;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.title {
+  margin-left: 60px;
+}
+
+.textarea {
+  margin-top: 30px;
+}
+
+.iframe {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flex2 {
+  margin-top: 30px;
+}
+
+.linked {
+  margin-top: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.centertable {
+  display: flex;
+  justify-content: center;
+}
+
+h1, .sentences {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex: 3;
+  justify-content: space-around; /* Center icons horizontally */
+  padding: 10px;
+}
+
+.otherskills {
+  background-color: #ffffff;
+  border-radius: 1em;
+  flex: 1;
+  padding: 10px;
+}
+
+.flexbox2 {
+  display: flex;
+  margin-right: 130px; /* Adjust margin */
+  margin-left: 55px; /* Adjust margin */
+}
