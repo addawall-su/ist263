@@ -1,14 +1,11 @@
-/* Apply background color to the entire body */
+
 body {
     background-color: #34d8eb;
   }
-  
-  /* Set the text color for all paragraphs */
   p {
     color: #000000;
   }
-  
-  /* Set text color for heading elements h1, h2, and h3 */
+
   h1, h2, h3 {
     color: #eb3434;
   }
@@ -45,7 +42,18 @@ body {
   .linked {margin-top:10px}
   .center {text-align: center;}
   .centertable {display:flex;justify-content: center;}
-  h1 {text-align: center;}
+  h1, .sentences {text-align: center;}
+  .icons {display:flex; flex: 3; padding: 10px;}
+  .otherskills {
+    background-color:#ffffff;
+    border-radius: 1em;
+    flex; 1;
+    padding: 10px;
+  }
+.flexbox2 {display: flex; margin-right: 130px; margin-left: 55px;}
+.icons {justify-content: space-around;}
+.sentences {display: block;}
+
 
 
 
