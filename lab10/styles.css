@@ -63,9 +63,6 @@ nav a:hover {
   margin-left: 60px;
 }
 
-.textarea {
-  margin-top: 30px;
-}
 
 .iframe {
   margin-top: 20px;
@@ -109,9 +106,19 @@ h1, .sentences {
 
 .flexbox2 {
   display: flex;
-  margin-right: 130px; /* Adjust margin */
-  margin-left: 55px; /* Adjust margin */
+  margin-right: 130px; 
+  flex-wrap:wrap;
 }
 .biopic {
   max-width: 100%;
 }
+.flex1, .flex2 {flex-wrap: wrap;}
+.form {
+  max-width: 100%;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.textarea {max-width: 50%;}
+@media only screen {}
