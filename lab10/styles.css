@@ -112,3 +112,6 @@ h1, .sentences {
   margin-right: 130px; /* Adjust margin */
   margin-left: 55px; /* Adjust margin */
 }
+.biopic {
+  max-width: 100%;
+}
