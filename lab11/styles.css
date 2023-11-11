@@ -121,7 +121,7 @@ h1, .sentences {
 }
 nav a {color: #ffffff;}
 nav {background-color: rgb(51, 4, 26);}
-h1, h2, h3 {color:#920707}
+h1, h2, h3 {color:#1d0101}
 
 .textarea {max-width: 50%;}
 @media only screen  and (max-width: 800px){nav a {display: block;}} 
