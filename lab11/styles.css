@@ -123,3 +123,17 @@ h1, .sentences {
 .textarea {max-width: 50%;}
 @media only screen  and (max-width: 800px){nav a {display: block;}} 
 @media only screen  and (max-width: 800px){ nav span {display: none}}
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
