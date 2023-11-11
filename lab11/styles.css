@@ -134,3 +134,6 @@ h1, .sentences {
 .skip:focus {
   left: 10px; /* bring it back when it's beeen tabbed to*/
 }
+nav a {color: #ffffff;}
+nav {background-color: rgb(51, 4, 26);}
+h1, h2, h3 {color:#920707}
