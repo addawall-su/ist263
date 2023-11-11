@@ -145,5 +145,6 @@ h1, h2, h3 {color:#1d0101}
 .info {color: #ffffff}
 .line {color:black}
 .img {background-color: #000000;}
-.otherskills {color:#ffffff; background-color: #1d0101;}
-
+.otherskills {background-color: #1d0101;}
+.otherskills h1 p {color: #ffffff}
+.hed, .par {color:#ffffff}
