@@ -133,6 +133,7 @@ h1, h2, h3 {color:#1d0101}
   text-decoration: none;
   position: absolute;
   left: -999px;
+  color: #000000;
 }
 
 .skip:focus {
