@@ -136,16 +136,18 @@ h1, h2, h3 {color:#1d0101}
   color: #000000;
 }
 
+.skip {
+  background-color: #ffffff;
+  padding: 5px;
+  border: 1px solid #000000;
+  text-decoration: none;
+  position: absolute;
+  left: -999px;
+  color: #000000; /* Text color */
+}
+
 .skip:focus {
   left: 10px;
-  outline: 2px solid #000000; 
+  outline: 2px solid #000000;
+  color: #ffffff; /* Text color on focus */
 }
-.flex1, .flex2 {background-color:#3b0808; color:#ffffff}
-.column1 {color: #ffffff}
-.flex1 a {color: #ffffff}
-.info {color: #ffffff}
-.line {color:black}
-.img {background-color: #000000;}
-.otherskills {background-color: #1d0101;}
-.otherskills h1 p {color: #ffffff}
-.hed, .par {color:#ffffff}
