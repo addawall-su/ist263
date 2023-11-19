@@ -38,3 +38,4 @@ footer {color:#ffffff; background-color: #000000; padding: 50px; border-radius: 
 .textarea {max-width: 70%;}
 .navlinks {display: flex; justify-content: flex-end;}
 @media only screen  and (max-width: 800px){ .navlinks {flex-direction: column;}}
+.results {color:#3f0c0c}
