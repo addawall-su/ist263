@@ -36,3 +36,5 @@ img, iframe {max-width: 100%;}
 footer {color:#ffffff; background-color: #000000; padding: 50px; border-radius: 0.3em;}
 .images {display:flex; justify-content: center;}
 .textarea {max-width: 70%;}
+.navlinks {display: flex; justify-content: flex-end;}
+@media only screen  and (max-width: 800px){ .navlinks {flex-direction: column;}}
