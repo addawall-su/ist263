@@ -2,7 +2,8 @@ body {background-color: #d09352; margin-right: 30px; margin-left: 30px; font-fam
 .boatclass {display: flex; background-color:#ffffff; border-radius: 0.5em;margin-right: 200px;margin-left: 200px; justify-content: center;}
 .sweep, .scull {margin-right: 30px;}
 h1, h2, h3, h5 {text-align: center;}
-.image {display: flex; justify-content: center;}
+.image {float: left; clear: both; margin: 30px}
+.boatrace {display: flex; justify-content: center;}
 .footer {display:flex}
 .sources {margin-left: 100px}
 .homeflex {display: flex;background-color: #58320a; color:#ffffff; padding: 50px; border-radius: 0.5em;}
@@ -43,5 +44,21 @@ footer {color:#ffffff; background-color: #000000; padding: 50px; border-radius: 
 .firstrow {margin-right: 30px;}
 .gearp {text-align: center;}
 .gearimage {display: block; margin: auto; margin-top: 30px;}
-h1 {font-family: 'Oswald', sans-serif;}
+h1, h2, h3, h5, label {font-family: 'Oswald', sans-serif;}
+.sources {color:#ffffff}
+.firstrow li {padding:20px;}
+.secondrow li {padding:20px}
+.paragraph {text-indent: 50px;}
+h4 {font-size: larger;}
+.gear {background-image: url(../project/media/widewater\ copy.jpeg);}
+@media only screen  and (max-width: 800px){ .boatclass {flex-wrap: wrap; margin: 0;}}
+@media only screen  and (max-width: 800px){ .sweep, .scull {display: block}}
+@media only screen  and (max-width: 920px){ .footer {flex-wrap: wrap;}}
+@media only screen  and (max-width: 600px){ .image {float: none; justify-content: center; margin-left: 85px;}}
+@media only screen  and (max-width: 920px){ .sources {margin-left: 0px;}}
+@media only screen  and (max-width: 800px){ .stretch {margin-left: 0px; margin-right: 0px;}}
+@media only screen  and (max-width: 800px){ .gearlist {flex-wrap: wrap;}}
+@media only screen  and (max-width: 800px){ .historical, .myphoto {width:100%}}
+@media only screen  and (max-width: 800px){ .advice {width: 70%}}
+
 
