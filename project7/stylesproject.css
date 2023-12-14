@@ -11,8 +11,10 @@ h1, h2, h3, h5 {text-align: center;}
 #h2 {text-align: left;}
 .disclaimer {text-align: center;}
 rect {background-color: black; color:#ffffff}
-nav {background-color: black;color: #ffffff;padding: 30px;border-radius: 0.3em;}
-nav a {color:#ffffff}
+nav {background-color: black;color: #ffffff;padding: 30px;border-radius: 0.3em;  animation-name: nav;
+  animation-duration: 3s;
+}
+nav a {color:#ffffff; animation-name: nav; animation-duration: 3s;}
 nav a:hover {color:#f3e95e}
 .skip {
     background-color: #ffffff;
@@ -51,6 +53,7 @@ h1, h2, h3, h5, label {font-family: 'Oswald', sans-serif;}
 .paragraph {text-indent: 50px;}
 h4 {font-size: larger;}
 .gear {background-image: url(../project/media/widewater\ copy.jpeg);}
+.historical {max-width: 100%;}
 @media only screen  and (max-width: 800px){ .boatclass {flex-wrap: wrap; margin: 0;}}
 @media only screen  and (max-width: 800px){ .sweep, .scull {display: block}}
 @media only screen  and (max-width: 920px){ .footer {flex-wrap: wrap;}}
@@ -60,5 +63,9 @@ h4 {font-size: larger;}
 @media only screen  and (max-width: 800px){ .gearlist {flex-wrap: wrap;}}
 @media only screen  and (max-width: 800px){ .historical, .myphoto {width:100%}}
 @media only screen  and (max-width: 800px){ .advice {width: 70%}}
+@keyframes nav {
+  from {background-color: #ffffff; color:#000000}
+  to {background-color: #000000; color:#ffffff}
+}
 
 
