@@ -1,4 +1,4 @@
-body {background-color: #d09352; margin-right: 30px; margin-left: 30px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+body {background-color: #d09352; margin-right: 30px; margin-left: 30px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; animation-name: body; animation-duration: 3s;}
 .boatclass {display: flex; background-color:#ffffff; border-radius: 0.5em;margin-right: 200px;margin-left: 200px; justify-content: center;}
 .sweep, .scull {margin-right: 30px;}
 h1, h2, h3, h5 {text-align: center;}
@@ -53,7 +53,7 @@ h1, h2, h3, h5, label {font-family: 'Oswald', sans-serif;}
 .paragraph {text-indent: 50px;}
 h4 {font-size: larger;}
 .gear {background-image: url(../project/media/widewater\ copy.jpeg);}
-.historical {max-width: 100%;}
+.historical {height: 94%;}
 @media only screen  and (max-width: 800px){ .boatclass {flex-wrap: wrap; margin: 0;}}
 @media only screen  and (max-width: 800px){ .sweep, .scull {display: block}}
 @media only screen  and (max-width: 920px){ .footer {flex-wrap: wrap;}}
@@ -66,6 +66,10 @@ h4 {font-size: larger;}
 @keyframes nav {
   from {background-color: #ffffff; color:#000000}
   to {background-color: #000000; color:#ffffff}
+}
+@keyframes body {
+  from {background-color:#58320a; color:#ffffff}
+  to {background-color: #d09352; color:#000000}
 }
 
 
