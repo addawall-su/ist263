@@ -1,5 +1,5 @@
-body {background-color: #d09352; margin-right: 30px; margin-left: 30px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; animation-name: body; animation-duration: 3s;}
-.boatclass {display: flex; background-color:#ffffff; border-radius: 0.5em;margin-right: 200px;margin-left: 200px; justify-content: center;}
+body {background-color: #eed4b8; margin-right: 30px; margin-left: 30px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; animation-name: body; animation-duration: 2s;}
+.boatclass {display: flex; color:#ffffff; background-color:#221202; border-width: 10px; border-color: #000000; border-radius: 0.5em;margin-right: 200px;margin-left: 200px; justify-content: center;}
 .sweep, .scull {margin-right: 30px;}
 h1, h2, h3, h5 {text-align: center;}
 .image {float: left; clear: both; margin: 30px}
@@ -12,9 +12,9 @@ h1, h2, h3, h5 {text-align: center;}
 .disclaimer {text-align: center;}
 rect {background-color: black; color:#ffffff}
 nav {background-color: black;color: #ffffff;padding: 30px;border-radius: 0.3em;  animation-name: nav;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
-nav a {color:#ffffff; animation-name: nav; animation-duration: 3s;}
+nav a {color:#ffffff; animation-name: nav; animation-duration: 2s;}
 nav a:hover {color:#f3e95e}
 .skip {
     background-color: #ffffff;
@@ -69,7 +69,7 @@ h4 {font-size: larger;}
 }
 @keyframes body {
   from {background-color:#58320a; color:#ffffff}
-  to {background-color: #d09352; color:#000000}
+  to {background-color: #eed4b8; color:#000000}
 }
 .skip {
   background-color: #ffffff;
