@@ -71,5 +71,19 @@ h4 {font-size: larger;}
   from {background-color:#58320a; color:#ffffff}
   to {background-color: #d09352; color:#000000}
 }
+.skip {
+  background-color: #ffffff;
+  padding: 5px;
+  border: 1px solid #000000;
+  text-decoration: none;
+  position: absolute;
+  left: -999px;
+  color: #000000; /* Text color */
+}
 
+.skip:focus {
+  left: 10px;
+  outline: 2px solid #000000;
+  color: #ffffff; /* Text color on focus */
+}
 
