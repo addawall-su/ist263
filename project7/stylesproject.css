@@ -53,7 +53,6 @@ h1, h2, h3, h5, label {font-family: 'Oswald', sans-serif;}
 .paragraph {text-indent: 50px;}
 h4 {font-size: larger;}
 .gear {background-image: url(../project/media/widewater\ copy.jpeg);}
-.historical {height: 94%;}
 @media only screen  and (max-width: 800px){ .boatclass {flex-wrap: wrap; margin: 0;}}
 @media only screen  and (max-width: 800px){ .sweep, .scull {display: block}}
 @media only screen  and (max-width: 920px){ .footer {flex-wrap: wrap;}}
